@@ -1,7 +1,17 @@
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: radius solid rgb(12, 12, 130) 3px ;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
 div {
     margin-top: 20px;
-    padding: 20px;
+    margin-left: -10px;
+    padding: 40px;
     width: 100%;
     height: 200px;
     background-color: rgb(29, 29, 31);
@@ -16,7 +26,6 @@ h1{
 h4 {
     text-align: center;
     color: whitesmoke;
-    font-weight: lighter;
 }
 #about {
     margin-top: 20px;
@@ -38,4 +47,121 @@ h4 {
     font-size: 22px;
     color:rgba(0, 0, 0, 0.429) ;
     font-weight: lighter;
+}
+#education {
+    margin-top: 20px;
+    margin-right: 100px;
+    margin-left: 210px;
+    padding: 20px;
+    width: 75%;
+    height: 200px;
+    background-color:  rgb(227, 227, 187);
+    box-sizing: border-box;
+}
+#education h2 {
+    text-align: center;
+    text-transform: capitalize;
+    color: rgb(0, 0, 0);
+}
+.education-items {
+    margin: 15px;
+    margin-right: 40px;
+    margin-left: 275px;
+    padding: 10px;
+    width: 55%;
+    height: 40px;
+    background-color: whitesmoke;
+    text-align: center;
+}
+.education-items h4 {
+      text-align: center;
+    color: black;
+}
+
+#skill {
+    margin-top: 20px;
+    margin-right: 400px;
+    margin-left: 210px;
+    padding: 20px;
+    width: 75%;
+    height: 285px;
+    background-color: rgb(235, 191, 198);
+    box-sizing: border-box;
+}
+#skill h2 {
+      text-align: center;
+    text-transform: capitalize;
+    color: rgb(0, 0, 0);
+}
+.skill-item {
+    margin: 15px;
+    margin-right: 40px;
+    margin-left: 275px;
+    padding: 10px;
+    width: 55%;
+    height: 40px;
+    background-color: whitesmoke;
+    text-align: center;
+}
+.skill-item h4 {
+      text-align: center;
+    color: black;
+}
+#projects {
+ margin-top: 20px;
+    margin-right: 400px;
+    margin-left: 210px;
+    padding: 20px;
+    width: 75%;
+    height: 285px;
+    background-color: rgb(202, 225, 233);
+    box-sizing: border-box;
+}
+#projects h2 {
+      text-align: center;
+    text-transform: capitalize;
+    color: rgb(0, 0, 0);
+}
+.project-item {
+    margin: 15px;
+    margin-right: 40px;
+    margin-left: 275px;
+    padding: 10px;
+    width: 55%;
+    height: 40px;
+    background-color: whitesmoke;
+    text-align: center;
+}
+.project-item h4 {
+      text-align: center;
+    color: black;
+}
+#contact {
+  margin-top: 20px;
+    margin-right: 400px;
+    margin-left: 210px;
+    padding: 20px;
+    width: 75%;
+    height: 285px;
+    background-color: rgb(202, 232, 202);
+    box-sizing: border-box;;
+}
+#contact h2 {
+      text-align: center;
+    text-transform: capitalize;
+    color: rgb(0, 0, 0);
+}
+.contact-detail {
+  margin: 15px;
+    margin-right: 40px;
+    margin-left: 275px;
+    padding: 10px;
+    width: 55%;
+    height: 40px;
+    background-color: whitesmoke;
+    text-align: center;
+}    
+.contact-detail h4 {
+      text-align: center;
+    color: black;
 }
